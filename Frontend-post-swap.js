@@ -20,8 +20,8 @@ jQuery(document).ready(function ( $ ){
         
         ft.find(".eael-post-list-title").html(fp_title);
         fp.find(".eael-post-list-title").html(ft_title);
-
-        fp.find(".eael-post-list-thumbnail a").attr('src', ft_image);
+  
+        fp.find(".eael-post-list-thumbnail a").attr('href', ft_link);
         
 
 
