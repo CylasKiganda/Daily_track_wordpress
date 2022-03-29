@@ -16,10 +16,11 @@ jQuery(document).ready(function ( $ ){
             }
         });
 
-        var submit_button_clone = $(".wpforms-submit-container").clone;
+        var submit_button_clone = $(".wpforms-submit-container").clone();
         if(!($("#wpforms-5988-field_28-container").find(submit_button_clone).length)){
             $("#wpforms-5988-field_28-container").append(submit_button_clone);
             $(".wpforms-submit-container").hide();
+            $("#wpforms-5988-field_28-container .wpforms-submit-container").show();
         }
       });
   });
