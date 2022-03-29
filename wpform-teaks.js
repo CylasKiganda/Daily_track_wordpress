@@ -10,7 +10,7 @@ jQuery(document).ready(function ( $ ){
 
                 }
                 else{
-                    $(this).append('<span style="position: absolute !important;color: #fff !important;font-size: 80%!important;font-weight: normal!important;margin-left: 5px!important;padding: 3px!important;display: inline-block!important;line-height: 1!important;border-radius: 3px!important;background: #B7B7B7 !important;vertical-align: text-top!important;" id="required_adttn" class="wpforms-any-label">任意</span>');
+                    $(this).append('<span style="position: absolute !important;color: #fff !important;font-size: 80%!important;font-weight: normal!important;margin-left: 5px!important;padding: 3px!important;display: inline-block!important;line-height: 1!important;border-radius: 3px!important;background: #B7B7B7 !important;vertical-align: text-top!important;margin-top: 4px!important;" id="required_adttn" class="wpforms-any-label">任意</span>');
 
                 }
             }
