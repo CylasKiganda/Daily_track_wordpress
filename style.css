@@ -1061,14 +1061,14 @@ div.wpforms-container-full .wpforms-form .wpforms-required-label {
     position: absolute !important;
     color: #fff !important;
     font-size: 80%!important;
-    font-weight: normal!important;
-    margin-left: 5px!important;
-    padding: 3px!important;
+    font-weight: bold!important;
+    margin-left: 12px!important;
     display: inline-block!important;
     line-height: 1!important;
-    border-radius: 3px!important;
     background: #D92B00!important;
+    padding: 4px 6px;
     vertical-align: text-top!important;
+    padding-bottom: 6px;
 }
 @media (min-width: 992px) {
 
@@ -1149,8 +1149,8 @@ div.wpforms-container-full .wpforms-form input[type=email],div.wpforms-container
 }
 #wpforms-5988-field_22-container .wpforms-field-label{
     margin-bottom: 0px !important;
-    margin-right: 40px !important;
-    margin-top: -20px;
+    margin-right: 55px !important;
+    margin-top: -25px;
 
 }
 
@@ -1183,12 +1183,12 @@ display: flex;
     border: 1px solid #DF1014;
 }
 #newx-first-flabel{
-float: right;
+    float: right;
     color: red;
     text-align: right;
     position: absolute;
-    right: -38px;
-    padding-top: 5px;
+    right: -50px;
+    padding-top: 7px;
 }
 #wpforms-5988-field_33-container {
 align-items: baseline;
@@ -1226,4 +1226,28 @@ div.wpforms-container-full .wpforms-form .wpforms-page-indicator.progress {
 
 .wpforms-entry-preview-label, div.wpforms-container-full .wpforms-form .wpforms-entry-preview-label {
     text-align: right !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-entry-preview-compact .wpforms-entry-preview-label{
+   width: 40% !important;
+}
+div.wpforms-container-full .wpforms-form .wpforms-entry-preview-compact .wpforms-entry-preview-value{
+  width: 60% !important;
+}
+div.wpforms-container-full .wpforms-form .wpforms-entry-preview-compact .wpforms-entry-preview-value{
+  padding-left: 55px !important;
+}
+
+.wpforms-any-label {
+    position: absolute !important;
+    color: #fff !important;
+    font-size: 80%!important;
+    font-weight: bold!important;
+    margin-left: 12px!important;
+    display: inline-block!important;
+    line-height: 1!important;
+    background:#B7B7B7 !important;
+    padding: 4px 6px !important;
+    vertical-align: text-top!important;
+    padding-bottom: 6px;
 }

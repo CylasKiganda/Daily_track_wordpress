@@ -10,11 +10,17 @@ jQuery(document).ready(function ( $ ){
 
                 }
                 else{
-                    $(this).append('<span style="position: absolute !important;color: #fff !important;font-size: 80%!important;font-weight: normal!important;margin-left: 5px!important;padding: 3px!important;display: inline-block!important;line-height: 1!important;border-radius: 3px!important;background: #B7B7B7 !important;vertical-align: text-top!important;margin-top: 4px!important;" id="required_adttn" class="wpforms-any-label">任意</span>');
+                    $(this).append('<span id="required_adttn" class="wpforms-any-label">任意</span>');
 
                 }
             }
         });
+
+        var submit_button_clone = $(".wpforms-submit-container").clone;
+        if(!($("#wpforms-5988-field_28-container").find(submit_button_clone).length)){
+            $("#wpforms-5988-field_28-container").append(submit_button_clone);
+            $(".wpforms-submit-container").hide();
+        }
       });
   });
 });
