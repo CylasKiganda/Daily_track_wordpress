@@ -1249,5 +1249,74 @@ div.wpforms-container-full .wpforms-form .wpforms-entry-preview-compact .wpforms
     background:#B7B7B7 !important;
     padding: 4px 6px !important;
     vertical-align: text-top!important;
-    padding-bottom: 6px;
+    padding-bottom: 6px!important;
+}
+
+.wpforms-field.wpforms-field-pagebreak{
+    width: 100% !important;
+    display: flex !important;
+}
+
+.wpforms-page-button.wpforms-page-prev{
+    background: #CCC!important;
+    border: 1px solid #CCC!important;
+    color: #545454!important;
+    font-size: 120%!important;
+    min-width: 80%!important;
+    font-weight: 600!important;
+    padding: 18px 15px!important;
+}
+.wpforms-field.wpforms-field-pagebreak .wpforms-submit-container{
+    width: 50%!important;
+    padding-top: 0px!important;
+    text-align: left;
+    margin-left: 20px;
+    display: block!important;
+}
+
+.wpforms-field.wpforms-field-pagebreak .wpforms-submit-container button{
+    width: 80%!important;
+    display: inline-block!important;
+    margin: 0 auto!important;
+    padding: 18px!important;
+    background: #DF1014!important;
+    background-size: 16px!important;
+    font-size: 120%!important;
+    text-decoration: none!important;
+    text-align: center!important;
+    color: #FFF!important;
+    font-weight: bold!important;
+    transition: all .3s!important;
+    border: 1px solid #DF1014!important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left {
+    width: 50%!important;
+}
+#wpforms-form-5988{
+    background: white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left {
+    text-align: right!important;
+    margin-right: 20px;
+}
+
+@media (max-width:425px){
+    #wpforms-form-5988{
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+    .wpforms-field.wpforms-field-pagebreak #wpforms-submit-5988 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+}
+
+.wpforms-submit-container{
+    display: none!important;;
 }

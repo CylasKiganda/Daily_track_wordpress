@@ -7,21 +7,19 @@ jQuery(document).ready(function ( $ ){
             if(!($(this).find("#required_adttn").length)){
                 if($.inArray( index, filter ) == -1){
                     $(this).append('<span id="required_adttn" class="wpforms-required-label">必須</span>');
-
                 }
                 else{
                     $(this).append('<span id="required_adttn" class="wpforms-any-label">任意</span>');
-
                 }
             }
         });
-
         var submit_button_clone = $(".wpforms-submit-container").clone();
-        if(!($("#wpforms-5988-field_28-container").find(submit_button_clone).length)){
-            $("#wpforms-5988-field_28-container").append(submit_button_clone);
-            $(".wpforms-submit-container").hide();
-            $("#wpforms-5988-field_28-container .wpforms-submit-container").show();
+        if(!($("#wpforms-5988-field_28-container").find(".wpforms-submit-container").length)){
+            $("#wpforms-5988-field_28-container").append(submit_button_clone); 
         }
+        $(".wpforms-submit-container").hide();
+        $("#wpforms-5988-field_28-container .wpforms-submit-container").show();
       });
   });
 });
+
