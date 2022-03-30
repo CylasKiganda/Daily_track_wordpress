@@ -14,7 +14,7 @@ if (count ($ post_cats) == 1):
 Web: Support <a target="_blank" href="/Support" style="
     color: red;
 "> Here </a> <br>
-E-mail: <a href="mailto:info@newx-corp.jp" style="
+E-mail: <a href="mailto:info@support.jp" style="
     color: red;
     font-weight: 500;
 "> info@newx-corp.jp </a> & nbsp; & nbsp; </ p>
@@ -28,10 +28,10 @@ E-mail: <a href="mailto:info@newx-corp.jp" style="
 Web: Support <a target="_blank" href="/Support" style="
     color: red;
 "> Here </a> <br>
-E-mail: <a href="mailto:info@newx-corp.jp" style="
+E-mail: <a href="mailto:info@support" style="
     color: red;
     font-weight: 500;
-"> info@newx-corp.jp </a> & nbsp; & nbsp; </ p>
+"> info@support </a> & nbsp; & nbsp; </ p>
 
 <? php
 
@@ -42,10 +42,10 @@ elseif (in_array ('Notice', $ post_cats)):
 Web: Support <a target="_blank" href="/Support" style="
 color: red;
 "> Here </a> <br>
-E-mail: <a href="mailto:info@newx-corp.jp" style="
+E-mail: <a href="mailto:info@support" style="
 color: red;
 font-weight: 500;
-"> info@newx-corp.jp </a> & nbsp; & nbsp; </ p>
+"> info@support</a> & nbsp; & nbsp; </ p>
 
 <? php
     endif;
