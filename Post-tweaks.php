@@ -17,7 +17,7 @@ Web: Support <a target="_blank" href="/Support" style="
 E-mail: <a href="mailto:info@support.jp" style="
     color: red;
     font-weight: 500;
-"> info@newx-corp.jp </a> & nbsp; & nbsp; </ p>
+"> info@Support.jp </a> & nbsp; & nbsp; </ p>
 
 <? php
        
