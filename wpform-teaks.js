@@ -6,10 +6,10 @@ jQuery(document).ready(function ( $ ){
         $(".wpforms-entry-preview.wpforms-entry-preview-compact .wpforms-entry-preview-label").each(function(index){
             if(!($(this).find("#required_adttn").length)){
                 if($.inArray( index, filter ) == -1){
-                    $(this).append('<span id="required_adttn" class="wpforms-required-label">必須</span>');
+                    $(this).append('<span id="required_adttn" class="wpforms-required-label">REQ</span>');
                 }
                 else{
-                    $(this).append('<span id="required_adttn" class="wpforms-any-label">任意</span>');
+                    $(this).append('<span id="required_adttn" class="wpforms-any-label">OPT</span>');
                 }
             }
         });
