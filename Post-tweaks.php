@@ -1,4 +1,4 @@
-<? php
+<? php 
 global $ porto_settings;
 global $ post;
 $ post_cat = get_the_category ($ post-> ID);
